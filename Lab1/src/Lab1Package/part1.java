@@ -1,7 +1,7 @@
 package Lab1Package;
 import java.util.Scanner;
 
-public class part1 {
+public class Part1 {
 	public static void main(String [] args) {
 		Scanner scnr = new Scanner(System.in);
 
@@ -17,7 +17,6 @@ public class part1 {
 			userNum2 = scnr.nextInt();
 	
 	
-			
 			
 			
 /*Next we isolate the individual values of each variable into new separate 			
@@ -36,7 +35,6 @@ variables using modulus*/
 			
 //Next we perform the following equations in order to get our final variables			
 			
-			
 			int finNum1 = num1a + num1b;
 			int finNum2 = num2a + num2b;
 			int finNum3 = num3a + num3b;
@@ -45,7 +43,6 @@ variables using modulus*/
 			
 			
 //Finally, we use an if/else statement to compare our final variables			
-			
 			
 			if ((finNum1 == finNum2) && (finNum2 == finNum3) && (finNum1 == finNum3)) {
 				System.out.println("True");
