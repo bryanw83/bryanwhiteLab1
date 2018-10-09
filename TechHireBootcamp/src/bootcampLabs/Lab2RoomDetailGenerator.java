@@ -6,8 +6,8 @@ public class Lab2RoomDetailGenerator {
 	public static void main(String[] args) {
 		Scanner scnr = new Scanner(System.in);
 		
-		double roomLength;
-		double roomWidth;
+		float roomLength;
+		float roomWidth;
 		
 		String userChoice;
 		
@@ -15,13 +15,13 @@ public class Lab2RoomDetailGenerator {
 		do {
 		System.out.println();
 		System.out.println("Please enter a room length: ");
-		roomLength = scnr.nextDouble();
+		roomLength = scnr.nextFloat();
 		
 		System.out.println("Please enter a room width: ");
-		roomWidth = scnr.nextDouble();
+		roomWidth = scnr.nextFloat();
 		
-		double roomArea = roomLength * roomWidth;
-		double roomPerimeter = (roomLength + roomWidth) * 2;
+		float roomArea = roomLength * roomWidth;
+		float roomPerimeter = (roomLength + roomWidth) * 2;
 		
 		
 		System.out.println("Area: " + roomArea);
